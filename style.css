@@ -1,0 +1,96 @@
+body{
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+
+.date{
+    font-size: 3em;
+    margin-left: 12em;
+    margin-top: 1.5em;
+    width: 6em;
+    height: 1.5em;
+
+    padding-left: 1.7em;
+    padding-top: 0.2em;
+
+    border-style: solid;
+    border-radius: 0.25em;
+    border-color:  #33ff33;
+
+    backdrop-filter: blur(7px);
+}
+
+
+.d1{
+    
+    color: #e70bcd;
+
+}
+
+.d2{
+    
+    text-shadow: 0 0 0.5em #6831b4;
+    box-shadow: 0 0 0.2em #33ff33,   inset 0 0 0.2em #33ff33;
+
+}
+
+
+#clock{
+    
+    
+    font-size: 5em;
+    margin-top: 1.5em;
+    border-style: double;
+    border-color:  #e267c8;
+    border-width: 0.12em;
+    border-radius: 0.25em;
+    box-shadow:  0 0 0.5em #8a45f2;
+    height: 3em;
+    width: 15.5em;
+    display: flex;
+    margin-left: 1.6em;
+    margin-right: 5em;
+   /* background: black; */
+   backdrop-filter: blur(10px);
+
+    
+}
+
+
+.time{
+ 
+    margin-left: 1em;
+    margin-top: 0.7em;
+    margin-bottom: 0.25em; 
+    border-style: solid;
+    border-color:  #33ff33;
+    text-align: center;
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 100%;
+    padding: 0.1em 0.1em;
+    border-width: 00.03em;
+    box-shadow:  0 0 0.2em #33ff33;
+    /* text-shadow: 0 0em 0.2em #e267c8; */
+
+}
+
+.colon{
+
+    margin-left: 2.2em;
+    margin-right: 1em;
+    margin-top: 0.7em;
+    
+
+}
+
+.b1{
+
+    color: #1E1E1E;
+} 
+
+.b2{
+
+    text-shadow: 0 0 0.19em #e267c8;
+    color: #33ff33;
+}
